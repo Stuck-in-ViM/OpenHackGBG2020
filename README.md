@@ -1,10 +1,10 @@
 # OpenHackGBG2020
 
-#Who are Stuck in ViM?
+# Who are Stuck in ViM?
 
 Stuck in ViM, a team of students from both Chalmers and Gothenburg University. With a healthy mix of talented, visionary and driven people, we hope to impress the judges. Comptences range from chemical and software engineering, to cognitive science and physics. The team also consists of people from around the world, something we hope helps us be inclusive in our solutions.
 
-##What we need in the submission on Shawee :
+## What we need in the submission on Shawee :
 ```
 - Read me file: problem, description of the solution, the idea which stands behind the code, contact info for the team
 - File with the developed solution’s code 
