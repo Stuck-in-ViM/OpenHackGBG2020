@@ -63,7 +63,7 @@ People living in and around LNP, Mozambique who have access to basic, working ce
 # The team
 ## Who are Stuck in ViM?
 
-Stuck in ViM, a team of students from both Chalmers and Gothenburg University. With a healthy mix of talented, visionary and driven people, we hope to impress the judges. Comptences range from chemical and software engineering, to cognitive science and physics. The team also consists of people from around the world, something we hope helps us be inclusive in our solutions.
+Stuck in ViM, a team of students from both Chalmers and Gothenburg University. With a good mix of competent, visionary and driven people, we hope to impress the judges. Comptences range from chemical and software engineering, to cognitive science and physics. The team also consists of people from around the world, something we hope helps us be inclusive in our solutions.
 
 - Agaton Fransson - 
 - [Kardo Marof](https://github.com/WalrusArtist) - 
