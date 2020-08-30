@@ -8,7 +8,7 @@ Wildlife Conflict for vulnerable people living in and around Mozambique’s Limp
 
 ## Challenge and problem statement
 [Human Wildlife Conflict](https://en.wikipedia.org/wiki/Human%E2%80%93wildlife_conflict) (HWC): When the interaction between humans and wildlife result in negative impacts including
-crop destruction or death. THis is a reality for poor, vulnerable people living in and around Mozambique’s rural [Limpopo
+crop destruction or death. This is a reality for poor, vulnerable people living in and around Mozambique’s rural [Limpopo
 National Park](https://www.peaceparks.org/parks/limpopo-national-park/) (LNP) where HWC occurs regularly. This challenge is focused on developing new (or expanding on
 existing) technology that is affordable, accessible and will aid community members with the early detection or deterring
 of HWC incidents with African elephants.
@@ -32,8 +32,8 @@ Technically speaking, Elert consists primarily of a back end server with utilise
 
 ##### This data is however of no value if it can not be accessed, which is where Elert's 4 interfaces come into play.
 
-- **Elert bracelet** is a durable, rigid wearable bracelet based on LoRaWAN for communication, and GPS for location tracking.
-Through the use of these highly efficient mobile communication technologies the bracelets are able to achieve ranges of approximately 15kms from a base station to cover the most rural of villiages, while boasting a one year battery life to ensure that users are not limited by their access to reliable electricity connections. 
+- **Elert bracelet** is a durable, rigid, rugged wearable bracelet based on LoRaWAN for communication, and GPS for location tracking.
+Through the use of these highly efficient mobile communication technologies the bracelet is able to achieve ranges of approximately 15kms from a base station to cover the most rural of villiages, while boasting a one year battery life to ensure that users are not limited by their access to reliable electricity connections. 
 
 - **Elert Web and Mobile applications** allow users with available hardware to receive alerts on their mobile connected smartphones, while also being engaged in pedagogical learning on how to mitigate the effects of HWC incidents.
 
@@ -43,12 +43,12 @@ Through the use of these highly efficient mobile communication technologies the 
 
 ##### However, even the most advanced warning systems have their limitations.
 
-This is where **Elert deterrant** comes into play. Using a combination of various deterant sounds (such as that of beehives and big cats) as well as 'carrot' sounds, such as that of a female in heat. The Elert deterant system uses automated outdoor speaker systems strategically placed around populated, and other protected areas to gently nudge elephants away from areas that would bring high risk of HWC incidents.
+This is where **Elert deterrant** comes into play. Using a combination of various deterant sounds (such as that of beehives and big cats) as well as lure sounds, such as that of a female in heat. The Elert deterant system uses automated outdoor speaker systems strategically placed around populated, and other protected areas to gently nudge elephants away from areas that would bring high risk of HWC incidents, in order to avoid incidents entirely.
 
 ## Technical description
 
 ### Elert Backend
-- Receives elephant location details
+- Receives elephant location details via API
 - Location data is stored in a database
 - Location data is processed using artificial intelligence, and deep learning to identify areas at risk
 - Responds to end-point regarding their location's risk
@@ -87,7 +87,7 @@ This is where **Elert deterrant** comes into play. Using a combination of variou
 - Automate luring defence
 - Automate alerting
 
-# System end-user
+## System end-user
 People living in and around LNP, Mozambique who have access to basic, working cell phones or a radio network.
 
 # The team - Stuck in ViM
@@ -98,23 +98,9 @@ Stuck in ViM are a team of students from both Chalmers and Gothenburg University
 - [Agaton Fransson](https://www.linkedin.com/in/agaton-fransson) - agaton.fransson@gmail.com
 - [Kardo Marof](https://github.com/WalrusArtist) - 
 - [Leith Hobson](https://github.com/leithhobson) - leithhobson@gmail.com
-- Neville Bhattacharjee - nevillebhattacharjee@gmail.com
+- [Neville Bhattacharjee](https://www.linkedin.com/in/neville-bhattacharjee-7495bb12b/) - nevillebhattacharjee@gmail.com
 - [Sebastian Baszczynski](https://github.com/MiddleTv) - sebastian_baszcz@yahoo.co.uk
-- Wenjin Yuan - 
+- [Wenjin Yuan](https://www.linkedin.com/in/wenjin-yuan-0a4965150/) - wenjin_98@live.com
 
-# Hashtags
+## Hashtags
 #HWCmitigation #preventHWC #EarlyWarning #PeaceParks #LimpopoNationalPark #elephants #Community
-
-## What we need in the submission on Shawee :
-```
-- Read me file: problem, description of the solution, the idea which stands behind the code, contact info for the team
-- File with the developed solution’s code 
-- Open source license
-- Presentation
-- 3 minute video with no audio, which will be used to present on Sunday.
-
-On Sunday, we will take the videos and the team will pitch live via voice! 
-
-In general, each team should describe all the files in their own folder. In README they should also add some hashtags connected to the topic (health/environment/economic).
-29 August 2020
-```
