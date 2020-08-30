@@ -102,19 +102,5 @@ Stuck in ViM are a team of students from both Chalmers and Gothenburg University
 - [Sebastian Baszczynski](https://github.com/MiddleTv) - sebastian_baszcz@yahoo.co.uk
 - Wenjin Yuan - 
 
-# Hashtags
+## Hashtags
 #HWCmitigation #preventHWC #EarlyWarning #PeaceParks #LimpopoNationalPark #elephants #Community
-
-## What we need in the submission on Shawee :
-```
-- Read me file: problem, description of the solution, the idea which stands behind the code, contact info for the team
-- File with the developed solution’s code 
-- Open source license
-- Presentation
-- 3 minute video with no audio, which will be used to present on Sunday.
-
-On Sunday, we will take the videos and the team will pitch live via voice! 
-
-In general, each team should describe all the files in their own folder. In README they should also add some hashtags connected to the topic (health/environment/economic).
-29 August 2020
-```
