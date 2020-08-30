@@ -26,46 +26,74 @@ There is very limited cellphone coverage in these areas.
 
 # The Solution - Elert
 ## What is Elert
-Elert is a platform that takes a multifaced, holistic approach to early detection and deterrant of HWC incidents
+Elert is a platform that takes a multifaced, holistic approach to early detection and deterrant of HWC incidents.
 
-Elephant Web app
-- Database
-- API
-- Web Client
+Technically speaking, Elert consists primarily of a back end server with utilises AI and deep learning to enhance the available elephant tracking data, which has a relatively low data resolution of 5-15 minutes. This allows the platform to immediately analyse any location for risk of HWC incidents.
 
-Bracelets
+##### This data is however of no value if it can not be accessed, which is where Elert's 4 interfaces come into play.
+
+- **Elert bracelet** is a durable, rigid wearable bracelet based on LoRaWAN for communication, and GPS for location tracking.
+Through the use of these highly efficient mobile communication technologies the bracelets are able to achieve ranges of approximately 15kms from a base station to cover the most rural of villiages, while boasting a one year battery life to ensure that users are not limited by their access to reliable electricity connections. 
+
+- **Elert Web and Mobile applications** allow users with available hardware to receive alerts on their mobile connected smartphones, while also being engaged in pedagogical learning on how to mitigate the effects of HWC incidents.
+
+- **Elert SMS** platform allows users to register their fixed location and mobile phone number, either via the Elert Web and Mobile applications, sms or by 'snail' mail in order to receive automated SMS alerts, whenever there is a risk of an HWC incident in their area.
+
+- **Elert HWC mitigation** provides automated control of local billboards, and warning lights erected in more densly populated areas, in order to alerts those who otherwise have no access to the Elert platform.
+
+##### However, even the most advanced warning systems have their limitations.
+
+This is where **Elert deterrant** comes into play. Using a combination of various deterant sounds (such as that of beehives and big cats) as well as 'carrot' sounds, such as that of a female in heat. The Elert deterant system uses automated outdoor speaker systems strategically placed around populated, and other protected areas to gently nudge elephants away from areas that would bring high risk of HWC incidents.
+
+## Technical description
+
+### Elert Backend
+- Receives elephant location details
+- Location data is stored in a database
+- Location data is processed using artificial intelligence, and deep learning to identify areas at risk
+- Responds to end-point regarding their location's risk
+- Send out automated **SMS alert** messages
+
+### Elert Bracelets
+- Rugged
 - Rigid
-- Has lights
-- Communicates with elephant chip (Bluetooth, wifi, ??)
+- Has a warning light
+- GPS location data
+- LoRaWAN link to the Elert Backend
+- Provides current location to Elert backend, in order to determine risk status
+- Light ring lights up when risk is present
+- Low power, battery life exceeding 1 year
+
+### Elert Web and Mobile app
+- Uses device location data
+- Provides current location to Elert backend, in order to determine risk status
+- Push notification when risk is present
+- Learning platform, teaches correct procedure for handling incidents
+- Provides means to notify and request help from authorities
+
+## Elert Tracking
+- Long term could supplement elephant tracking technologies
 - GPS tracking
+- LoRaWAN communication, when in range of a gateway
 
+## Elert ML
+- Predicts elephant movements
+- Risk analysis
 
-Tracking elephants
-- Chips
-- gps tracking
-
-
-Applicable to
-- different animals
-- different places
-
-ML Aspects
-- prediction algorithm
-
-Geo Fence
+## Geo Fence
 - Automate counter defence
 - Automate luring defence
-
+- Automate alerting
 
 # System end-user
 People living in and around LNP, Mozambique who have access to basic, working cell phones or a radio network.
 
-# The team
+# The team - Stuck in ViM
 ## Who are Stuck in ViM?
 
-Stuck in ViM, a team of students from both Chalmers and Gothenburg University. With a good mix of competent, visionary and driven people, we hope to impress the judges. Comptences range from chemical and software engineering, to cognitive science and physics. The team also consists of people from around the world, something we hope helps us be inclusive in our solutions.
+Stuck in ViM are a team of students from both Chalmers and Gothenburg University. With a good mix of competent, visionary and driven people, we hope to impress the judges. Comptences range from chemical and software engineering, to cognitive science and physics. The team also consists of people from around the world, something we hope helps us be inclusive in our solutions.
 
-- Agaton Fransson - 
+- [Agaton Fransson](https://www.linkedin.com/in/agaton-fransson) - agaton.fransson@gmail.com
 - [Kardo Marof](https://github.com/WalrusArtist) - 
 - [Leith Hobson](https://github.com/leithhobson) - leithhobson@gmail.com
 - Neville Bhattacharjee - nevillebhattacharjee@gmail.com
