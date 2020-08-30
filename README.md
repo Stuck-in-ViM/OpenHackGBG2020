@@ -87,7 +87,7 @@ This is where **Elert deterrant** comes into play. Using a combination of variou
 - Automate luring defence
 - Automate alerting
 
-# System end-user
+## System end-user
 People living in and around LNP, Mozambique who have access to basic, working cell phones or a radio network.
 
 # The team - Stuck in ViM
