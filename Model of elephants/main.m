@@ -102,13 +102,13 @@ end
 
 
 %%      Save positions
-% positionsExport=zeros(noOfTimesteps,noOfElephants*2);
-% for i=1:noOfElephants
-%     positionsExport(:,(i-1)*2+1) = positionsMatrix(i,1:2:noOfTimesteps*2);
-%     positionsExport(:,2*i) = positionsMatrix(i,2:2:noOfTimesteps*2);
-% end
+positionsExport=zeros(noOfTimesteps,noOfElephants*2);
+for i=1:noOfElephants
+    positionsExport(:,(i-1)*2+1) = positionsMatrix(i,1:2:noOfTimesteps*2);
+    positionsExport(:,2*i) = positionsMatrix(i,2:2:noOfTimesteps*2);
+end
 
-%writematrix(positionsExport,'ElephantPositions.csv') 
+writematrix(positionsExport,'ElephantPositions.csv') 
 
 
 
