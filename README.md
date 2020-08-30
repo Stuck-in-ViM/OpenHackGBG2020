@@ -80,6 +80,8 @@ This is where **Elert deterrant** comes into play. Using a combination of variou
 - Predicts elephant movements
 - Risk analysis
 
+![image](/Model%20of%20elephants/ElephantWalk_TrimFinal.gif)
+
 ## Geo Fence
 - Automate counter defence
 - Automate luring defence
